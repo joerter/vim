@@ -14,8 +14,7 @@ nnoremap <leader>t :terminal<cr>
 
 " Working with splits
 nnoremap <c-j> <C-w>j
-" workaround for <c-h> https://github.com/neovim/neovim/issues/2048
-nnoremap <BS> <C-w>h
+nnoremap <c-h> <C-w>h
 nnoremap <c-k> <C-w>k
 nnoremap <c-l> <C-w>l
 
@@ -28,8 +27,9 @@ set relativenumber
 set numberwidth=1
 
 " colorscheme
+set termguicolors
 set background=dark
-colorscheme solarized
+colorscheme one
 
 " Wrapping - No wrap, scroll one char at a time
 set nowrap
@@ -37,8 +37,8 @@ set sidescroll=1
 set listchars+=precedes:<,extends:>
 
 " Indenting
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 
 " Filetype detection
