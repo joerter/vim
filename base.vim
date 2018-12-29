@@ -48,3 +48,8 @@ filetype indent on
 
 " Parentheses
 set showmatch
+
+" Folding
+set foldmethod=indent
+set foldlevel=99
+nnoremap <space> za
