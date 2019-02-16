@@ -53,3 +53,7 @@ set showmatch
 set foldmethod=indent
 set foldlevel=99
 nnoremap <space> za
+
+" Searching
+nnoremap <leader><space> :nohlsearch<CR>
+set nowrapscan
