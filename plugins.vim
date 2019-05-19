@@ -1,8 +1,5 @@
 call plug#begin()
 Plug 'scrooloose/nerdtree'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-Plug 'rking/ag.vim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -10,14 +7,15 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-commentary'
 Plug 'raimondi/delimitmate'
 Plug 'janko-m/vim-test'
+Plug 'tpope/vim-fugitive'
 
 " Colorschemes
-Plug 'morhetz/gruvbox'
-Plug 'rakr/vim-one'
+Plug 'joshdick/onedark.vim'
 
 " HTML
 Plug 'mattn/emmet-vim'
 
+" CSS
 Plug 'groenewege/vim-less'
 
 " JavaScript plugins
@@ -29,11 +27,9 @@ Plug 'prettier/vim-prettier'
 
 " TypeScript plugins
 Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/tsuquyomi'
 
 " Pug plugins
 Plug 'digitaltoad/vim-pug'
-
-" Python plugins
-Plug 'nvie/vim-flake8'
 
 call plug#end()

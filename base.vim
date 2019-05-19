@@ -1,22 +1,8 @@
 let mapleader=","
 
-" Reload init.vim
-nnoremap <leader>sv :source ~/.config/nvim/init.vim<CR>
-
-" Getting to normal mode faster
-tnoremap jk <C-\><C-n>
-inoremap jk <esc>
-inoremap jks <esc>:w<CR>
-
-nnoremap <leader>vs :vsplit<cr>
-nnoremap <leader>hs :split<cr>
-nnoremap <leader>t :terminal<cr>
-
-" Working with splits
-nnoremap <c-j> <C-w>j
-nnoremap <c-h> <C-w>h
-nnoremap <c-k> <C-w>k
-nnoremap <c-l> <C-w>l
+" Line Numbers
+set rnu
+set nu
 
 " syntax highlighting
 syntax on
@@ -26,10 +12,19 @@ set number
 set relativenumber
 set numberwidth=1
 
+" Set 7 lines to the cursor when moving vertically with j/k
+set so=7
+
 " colorscheme
 set termguicolors
 set background=dark
-colorscheme one
+colorscheme onedark
+if (has("autocmd"))
+    augroup colorextend
+        autocmd!
+        autocmd ColorScheme * call onedark#extend_highlight("LineNr", {"fg": {"guii": "#abb2bf""}})
+    augroup END
+endif
 
 " Wrapping - No wrap, scroll one char at a time
 set nowrap
@@ -50,10 +45,15 @@ filetype indent on
 set showmatch
 
 " Folding
-set foldmethod=indent
-set foldlevel=99
-nnoremap <space> za
+set foldmethod=syntax
+set foldcolumn=0
+let javaScript_fold=1
+set foldlevelstart=99
 
 " Searching
-nnoremap <leader><space> :nohlsearch<CR>
 set nowrapscan
+
+" Turn on the Wild menu
+set wildmenu
+" ignore for fuzzy find
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store,*\\tmp\\*,*.swp,*.zip,*.exe,*\\bin\\*,*\\packages\\*,*\\obj\\*

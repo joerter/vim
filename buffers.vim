@@ -9,3 +9,5 @@ nnoremap H :bprevious<CR>
 
 " close the current buffer and switch to previous buffer
 nnoremap Q :bp <bar> bd #<cr>
+
+nnoremap <Leader>b :b 
