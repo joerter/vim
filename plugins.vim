@@ -1,16 +1,20 @@
-call plug#begin()
-Plug 'scrooloose/nerdtree'
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+      \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree'
+Plug 'dense-analysis/ale'
 
 Plug 'tpope/vim-commentary'
 Plug 'raimondi/delimitmate'
-Plug 'janko-m/vim-test'
 Plug 'tpope/vim-fugitive'
 
 " Colorschemes
 Plug 'joshdick/onedark.vim'
+Plug 'altercation/vim-colors-solarized'
 
 " HTML
 Plug 'mattn/emmet-vim'
@@ -31,5 +35,8 @@ Plug 'Quramy/tsuquyomi'
 
 " Pug plugins
 Plug 'digitaltoad/vim-pug'
+
+" Ledger
+Plug 'ledger/vim-ledger'
 
 call plug#end()

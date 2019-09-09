@@ -1,5 +1,15 @@
 let mapleader=","
 
+" no swap files
+set noswapfile
+
+" always show the status line
+set laststatus=2
+
+" display column and line indicator
+set cursorcolumn
+set cursorline
+
 " Line Numbers
 set rnu
 set nu
@@ -15,16 +25,6 @@ set numberwidth=1
 " Set 7 lines to the cursor when moving vertically with j/k
 set so=7
 
-" colorscheme
-set termguicolors
-set background=dark
-colorscheme onedark
-if (has("autocmd"))
-    augroup colorextend
-        autocmd!
-        autocmd ColorScheme * call onedark#extend_highlight("LineNr", {"fg": {"guii": "#abb2bf""}})
-    augroup END
-endif
 
 " Wrapping - No wrap, scroll one char at a time
 set nowrap
@@ -51,9 +51,12 @@ let javaScript_fold=1
 set foldlevelstart=99
 
 " Searching
-set nowrapscan
+set wrapscan
+set hlsearch
+
 
 " Turn on the Wild menu
 set wildmenu
+
 " ignore for fuzzy find
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store,*\\tmp\\*,*.swp,*.zip,*.exe,*\\bin\\*,*\\packages\\*,*\\obj\\*
