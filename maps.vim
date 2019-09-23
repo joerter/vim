@@ -26,3 +26,6 @@ nnoremap <leader><cr> :nohlsearch<CR>
 
 " Grep searching
 nnoremap <leader>gs :! grep -r ''
+
+" File searching
+nnoremap <c-p> :find 
