@@ -59,4 +59,7 @@ set hlsearch
 set wildmenu
 
 " ignore for fuzzy find
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store,*\\tmp\\*,*.swp,*.zip,*.exe,*\\bin\\*,*\\packages\\*,*\\obj\\*
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store,*\\tmp\\*,*.swp,*.zip,*.exe,*\\bin\\*,*\\packages\\*,*\\obj\\*,*/node_modules/*
+
+" add recursive folder searching to find
+set path+=**
