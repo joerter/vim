@@ -10,4 +10,11 @@ nnoremap H :bprevious<CR>
 " close the current buffer and switch to previous buffer
 nnoremap Q :bp <bar> bd #<cr>
 
-nnoremap <Leader>b :b 
+" close all buffers
+nnoremap <Leader>ba :bufdo bd<cr>
+
+" show all buffers
+nnoremap <leader>o :buffers<cr>:b
+
+
+
