@@ -34,6 +34,7 @@ set listchars+=precedes:<,extends:>
 " Indenting
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
 set expandtab
 
 " Filetype detection
@@ -63,3 +64,6 @@ set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store,*\\tmp\\*,*.swp,*.zip,*.ex
 
 " add recursive folder searching to find
 set path+=**
+
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:▸\ ,eol:¬

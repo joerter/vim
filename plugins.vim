@@ -16,6 +16,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'joshdick/onedark.vim'
 Plug 'altercation/vim-colors-solarized'
 
+" Polyglot
+Plug 'sheerun/vim-polyglot'
+
 " HTML
 Plug 'mattn/emmet-vim'
 

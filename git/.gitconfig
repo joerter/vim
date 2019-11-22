@@ -20,7 +20,7 @@
 	conflictstyle = diff3
 [user]
 	name = John Oerter
-	email = john@johnoerter.me
+	email = john.oerter@fcsamerica.com
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

@@ -94,3 +94,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.oh-my-zsh/custom/aliases.zsh
 source ~/.oh-my-zsh/custom/options.zsh
 source ~/.oh-my-zsh/custom/nvm.zsh
+
+zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
+autoload -Uz compinit
+compinit

@@ -24,8 +24,14 @@ nnoremap <space> za
 " Unhighlight searches
 nnoremap <leader><cr> :nohlsearch<CR>
 
-" Grep searching
-nnoremap <leader>gs :! grep -r ''
-
 " File searching
 nnoremap <c-p> :find 
+
+" Using cnext and cprevious
+nnoremap <leader>cn :cnext<cr>
+nnoremap <leader>cp :cprevious<cr>
+
+nnoremap <leader>sc :setlocal spell spelllang=en_us<cr>
+
+" toggle whitespace characters
+nmap <leader>l :set list!<CR>
