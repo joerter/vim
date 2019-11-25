@@ -12,6 +12,9 @@ Plug 'tpope/vim-commentary'
 Plug 'raimondi/delimitmate'
 Plug 'tpope/vim-fugitive'
 
+" COC Vim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 " Colorschemes
 Plug 'joshdick/onedark.vim'
 Plug 'altercation/vim-colors-solarized'
