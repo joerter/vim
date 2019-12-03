@@ -1,5 +1,8 @@
 let mapleader=","
 
+" set encoding
+set encoding=UTF-8
+
 " no swap files
 set noswapfile
 

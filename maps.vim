@@ -24,9 +24,6 @@ nnoremap <space> za
 " Unhighlight searches
 nnoremap <leader><cr> :nohlsearch<CR>
 
-" File searching
-nnoremap <c-p> :find 
-
 " Using cnext and cprevious
 nnoremap <leader>cn :cnext<cr>
 nnoremap <leader>cp :cprevious<cr>
