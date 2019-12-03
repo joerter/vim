@@ -25,7 +25,6 @@ set numberwidth=1
 " Set 7 lines to the cursor when moving vertically with j/k
 set so=7
 
-
 " Wrapping - No wrap, scroll one char at a time
 set nowrap
 set sidescroll=1

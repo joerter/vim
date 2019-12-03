@@ -5,6 +5,7 @@ source ~/bench/vim/buffers.vim
 source ~/bench/vim/maps.vim
 source ~/bench/vim/statusline.vim
 
+source ~/bench/vim/lightline.vim
 source ~/bench/vim/colorscheme.vim
 
 source ~/bench/vim/ale.vim

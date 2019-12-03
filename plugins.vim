@@ -5,22 +5,22 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+
 Plug 'scrooloose/nerdtree'
 Plug 'dense-analysis/ale'
-
 Plug 'tpope/vim-commentary'
 Plug 'raimondi/delimitmate'
 Plug 'tpope/vim-fugitive'
-
-" COC Vim
+Plug 'mhinz/vim-startify'
+Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'sheerun/vim-polyglot'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Colorschemes
 Plug 'joshdick/onedark.vim'
 Plug 'altercation/vim-colors-solarized'
 
-" Polyglot
-Plug 'sheerun/vim-polyglot'
 
 " HTML
 Plug 'mattn/emmet-vim'
