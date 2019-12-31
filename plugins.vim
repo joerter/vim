@@ -17,6 +17,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 Plug 'ctrlpvim/ctrlp.vim'
 
+Plug 'mattn/gist-vim'
+Plug 'mattn/webapi-vim'
+
 " Colorschemes
 Plug 'joshdick/onedark.vim'
 Plug 'altercation/vim-colors-solarized'

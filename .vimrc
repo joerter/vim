@@ -12,5 +12,6 @@ source ~/bench/vim/nerdtree.vim
 source ~/bench/vim/prettier.vim
 source ~/bench/vim/emmet.vim
 source ~/bench/vim/coc.vim
+source ~/bench/vim/gist.vim
 
 source ~/bench/vim/javascript.vim
