@@ -1,2 +1,2 @@
-nnoremap <leader>. :TsuImport<cr>
-nnoremap <F2> :TsuRenameSymbol<cr>
+" nnoremap <leader>. :TsuImport<cr>
+" nnoremap <F2> :TsuRenameSymbol<cr>

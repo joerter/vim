@@ -7,13 +7,13 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
-Plug 'dense-analysis/ale'
+" Plug 'dense-analysis/ale'
 Plug 'tpope/vim-commentary'
 Plug 'raimondi/delimitmate'
 Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-startify'
 Plug 'itchyny/lightline.vim'
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 Plug 'ctrlpvim/ctrlp.vim'
 
@@ -36,8 +36,8 @@ Plug 'elzr/vim-json'
 Plug 'prettier/vim-prettier'
 
 " TypeScript plugins
-Plug 'leafgarland/typescript-vim'
-Plug 'Quramy/tsuquyomi'
+" Plug 'leafgarland/typescript-vim'
+" Plug 'Quramy/tsuquyomi'
 
 " Pug plugins
 Plug 'digitaltoad/vim-pug'
