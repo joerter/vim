@@ -38,9 +38,8 @@ Plug 'othree/javascript-libraries-syntax.vim', { 'for': 'javascript' }
 Plug 'elzr/vim-json'
 Plug 'prettier/vim-prettier'
 
-" TypeScript plugins
-" Plug 'leafgarland/typescript-vim'
-" Plug 'Quramy/tsuquyomi'
+" Clojure
+Plug 'kien/rainbow_parentheses.vim'
 
 " Pug plugins
 Plug 'digitaltoad/vim-pug'
