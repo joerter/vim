@@ -23,6 +23,7 @@ Plug 'mattn/webapi-vim'
 " Colorschemes
 Plug 'joshdick/onedark.vim'
 Plug 'altercation/vim-colors-solarized'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 
 " HTML
