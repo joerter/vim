@@ -56,6 +56,7 @@ set foldlevelstart=99
 " Searching
 set wrapscan
 set hlsearch
+set incsearch
 
 
 " Turn on the Wild menu

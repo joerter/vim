@@ -15,5 +15,7 @@ source ~/bench/vim/coc.vim
 source ~/bench/vim/gist.vim
 source ~/bench/vim/rainbow-parentheses.vim
 source ~/bench/vim/prose.vim
+source ~/bench/vim/minibuf.vim
+source ~/bench/vim/sexp.vim
 
 source ~/bench/vim/javascript.vim
