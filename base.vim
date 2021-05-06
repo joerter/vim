@@ -1,4 +1,5 @@
-let mapleader=","
+noremap <SPACE> <Nop>
+let mapleader=" "
 
 " set encoding
 set encoding=UTF-8
